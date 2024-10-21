@@ -1,0 +1,22 @@
+let person = { 
+    name: "John",
+    age: 30,
+    isStudent: false,
+    address: {
+        city: "New York",
+        zipCode: "18881"
+    }
+};
+console.log(person.name);
+console.log(person.address.city);
+//changing value
+person.age = 31;
+let company = {
+    name: "TechCorp",
+    employees: [
+        { name: "Alice", position: "Engineer"},
+        { name: "Bob", position: "Designer" }, 
+        { name: "Charlie", position: "Manager" }
+    ]
+};
+console.log(company.employees[0].name); 
